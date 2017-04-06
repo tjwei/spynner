@@ -1563,9 +1563,9 @@ def get_cookie_line(cookie):
 
 
 def get_cookie_info(cookie):
-    domain_flag = str(cookie.domain().toUtf8()).startswith(".")
+    domain_flag = cookie.domain().startswith(".")
     return {
-        'domain': byte2str(cookie.domain().toUtf8()),
+        'domain': cookie.domain(),
         'domain_flag': domain_flag,
         'path': byte2str(cookie.path()),
         'isSecure': cookie.isSecure(),
