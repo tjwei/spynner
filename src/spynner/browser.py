@@ -34,7 +34,6 @@ import os
 from six import BytesIO as StringIO
 
 import pkg_resources
-import autopy
 
 try:
     from PySide import QtCore
