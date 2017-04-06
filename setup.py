@@ -41,7 +41,6 @@ setup(
         'beautifulsoup4',
         'unittest2',
         'pyquery',
-        'autopy',  #'https://github.com/Riamse/autopy.git',
         'setuptools',
     ],
     scripts=[],
